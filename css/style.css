@@ -19,12 +19,25 @@
         padding-top: 6px;
     }
 
+    .padding-top-160 {
+        padding-top: 160px;
+    }
+
     .background-azure {
         background-color: rgb(180, 208, 231);
     }
 
     .height-400px {
         height: 400px;
+    }
+
+    .section {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .font-size-45 {
+        font-size: 45px;
     }
 
     /*i*/
@@ -128,7 +141,6 @@
     .jumbotron-container {
         width: 63%;
         margin: 0 auto;
-        padding-top: 160px;
     }
 
     .jumbotron-row {
@@ -153,3 +165,13 @@
     }
 
     /*jumbotron-end*/
+
+    /*section*/
+
+    label {
+        padding-right: 50px;
+    }
+
+    .radio {
+        padding: 55px 0px;
+    }
