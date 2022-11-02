@@ -50,6 +50,18 @@
             margin-top: 80px;
         }
 
+        .font-size-22 {
+            font-size: 22px;
+        }
+
+        .color-gray {
+            color: rgb(122, 136, 150);
+        }
+
+        .color-blue {
+            color: rgb(0, 97, 255);
+        }
+
     /*i*/
 
     /*button*/
@@ -172,6 +184,18 @@
         padding-right: 50px;
     }
 
-    .radio {
+    .radio-area {
         padding: 55px 0px;
+    }
+
+    .radio {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        border: 2px solid rgb(189, 189, 189);
+        border-radius: 12px;
+    }
+
+    .radio:focus {
+        border: 6px solid rgb(0, 97, 255);
     }
