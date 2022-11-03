@@ -11,8 +11,16 @@
         list-style-type: none;
     }
 
-    li {
-        margin: 0 20px;
+    .margin-left-25 {
+        margin-left: 25px;
+    }
+
+    .margin-10-0 {
+        margin: 10px 0;
+    }
+
+    .margin-left-25 {
+        margin-left: 25px;
     }
 
     .padding-top-6 {
@@ -23,12 +31,16 @@
         padding-top: 160px;
     }
 
-    .background-azure {
-        background-color: rgb(180, 208, 231);
+    .padding-25-0-15-0 {
+        padding: 25px 0 15px 0;
     }
 
-    .height-400px {
-        height: 400px;
+    .padding-35-0 {
+        padding: 35px 0;
+    }
+
+    .background-azure {
+        background-color: rgb(180, 208, 231);
     }
 
     .section {
@@ -40,14 +52,26 @@
         font-size: 45px;
     }
 
+    .width-100 {
+        width: 100%;
+    }
+
+    .column-30 {
+        width: 30%;
+    }
+
+    .text-align-center {
+        text-align: center;
+    }
+
     /*i*/
 
         .font-size-50 {
             font-size: 50px;
         }
 
-        .margin-top-80 {
-            margin-top: 80px;
+        .margin-75-0-15-0 {
+            margin: 75px 0 15px 0;
         }
 
         .font-size-22 {
@@ -80,7 +104,11 @@
             padding: 10px 15px;
         }
 
-        .margin-30 {
+        .padding-10-0 {
+            padding: 10px 0;
+        }
+
+        .margin-30-0 {
             margin: 30px 0;
         }
 
@@ -112,6 +140,7 @@
         width: 100vw;
         align-items: center;
         background-color: white;
+        z-index: 1;
     }
 
     .header-container {
@@ -147,7 +176,7 @@
     }
 
     .jumbotron {
-        width: 100vw;
+        width: 100%;
     }
 
     .jumbotron-container {
@@ -159,11 +188,7 @@
         width: 100%
     }
 
-    .jumbotron-column-30 {
-        width: 30%;
-    }
-
-    .jumbotron-column-70 {
+    .column-70 {
         width: 70%;
     }
 
@@ -172,8 +197,9 @@
     }
 
     .jumbo-img {
-        max-width: 100%;
-        height: auto;
+        width: 45%;
+        position: absolute;
+        
     }
 
     /*jumbotron-end*/
@@ -181,7 +207,7 @@
     /*section*/
 
     label {
-        padding-right: 50px;
+        padding: 0 50px 0 5px;
     }
 
     .radio-area {
@@ -199,3 +225,22 @@
     .radio:focus {
         border: 6px solid rgb(0, 97, 255);
     }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    /*card*/
+
+        .card {
+            border: 1px solid rgb(189, 189, 189);
+        }
+
+        .card-content {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .card-row {
+            line-height: 1.6;
+        }

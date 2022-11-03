@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
@@ -20,19 +20,19 @@
                         <div class="logo">
                             <img src="./img/logo-small.png" alt="logo-small">
                         </div>
-                        <ul class="flex padding-top-6">
-                            <li>Perchè Dropbox</li>
-                            <li>Funzioni</li>
-                            <li>Piani e Prezzi</li>
+                        <ul class="flex padding-top-6 list-style-type">
+                            <li class="margin-20-0">Perchè Dropbox</li>
+                            <li class="margin-20-0">Funzioni</li>
+                            <li class="margin-20-0">Piani e Prezzi</li>
                         </ul>
                     </div>
                 </div>
                 <div class="header-column column-right flex">
                     <div class="content flex">
-                        <ul class="flex padding-top-6">
-                            <li>Supporto</li>
-                            <li>Contatta l'ufficio vendite</li>
-                            <li>Accedi</li>
+                        <ul class="flex padding-top-6 list-style-type">
+                            <li class="margin-20-0">Supporto</li>
+                            <li class="margin-20-0">Contatta l'ufficio vendite</li>
+                            <li class="margin-20-0">Accedi</li>
                         </ul>
                         <button class="padding-4-14 blue-button">
                             Inizia
@@ -53,22 +53,22 @@
                     </div>
                 </div>
                 <div class="jumbotron-row flex">
-                    <div class="jumbotron-column-30">
+                    <div class="column-30">
                         <div class="jumbotron-content">
                             <p>
                                 Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                             </p>
-                            <button class="margin-30 padding-10-15 blue-button">
+                            <button class="margin-30-0 padding-10-15 blue-button">
                                 Inizia la tua prova gratuita
                             </button>
                             <div>
                                 Annulla in qualsiasi momento
                             </div>
-                            <i class="fa-solid fa-arrow-down font-size-50 margin-top-80"></i>
+                            <i class="fa-solid fa-arrow-down font-size-50 margin-75-0-15-0"></i>
                         </div>
                     </div>
-                    <div class="jumbotron-column-70">
-                        <div class="jumbotron-content height-400px">
+                    <div class="column-70">
+                        <div class="jumbotron-content">
                             <img class="jumbo-img" src="./img/jumbo.png" alt="jumbo">
                         </div>
                     </div>
@@ -82,11 +82,11 @@
                         <div class="content">
                             <h2 class="font-size-45">Trova il piano business che fa per te</h2>
                             <div class="radio-area flex">
-                                <div>
+                                <div class="flex justify-content-center">
                                     <div tabindex="1" class="radio"></div>
                                     <label for="">Fatturazione mensile</label>
                                 </div>
-                                <div>
+                                <div class="flex justify-content-center">
                                     <div tabindex="2" class="radio"></div>
                                     <label for="">Fatturazione annuale</label>
                                 </div>
@@ -94,13 +94,44 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="column-30"></div>
-                    <div class="column-30"></div>
-                    <div class="column-30"></div>
+                <div class="card-row">
+                    <div class="column-30">
+                        <div class="card">
+                            <div class="card-header-content text-align-center padding-10-0"><i class="fa-solid fa-user"></i> Singolo</div>
+                            <hr>
+                            <div class="card-content">
+                                <h2 class="padding-25-0-15-0">Professional</h2>
+                                <div class="price">
+                                    <div><strong>&#8364; 12.00</strong></div>
+                                    <div>/mese</div>
+                                </div>
+                                <ul class="fa-ul padding-35-0 margin-left-25">
+                                    <li><span class="fa-li"><i class="fa-solid fa-user"></i></span> 1 utente</li>
+                                    <li><span class="fa-li"><i class="fa-solid fa-folder"></i></span> 5 TB di spazio di archiviazione sicuro</li>
+                                    <li><span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                </ul>
+                                <button class="text-align-center width-100 blue-button adding-10-0">Prova gratis per 30 giorni</button>
+                                <div>oppure <a href="http://" target="_blank" rel="noopener noreferrer">acquista ora</a></div>
+                                <hr>
+                                <h4>Punti Salienti del piano</h4>
+                                <ul class="fa-ul padding-35-0 margin-left-25">
+                                    <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                    <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Cartelle offline su dispositivi mobili</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-30">
+                        <div class="content"></div>
+                    </div>
+                    <div class="column-30">
+                        <div class="content"></div>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="column-100"></div>
+                    <div class="column-100">
+                        <div class="content"></div>
+                    </div>
                 </div>
             </div>
         </div>
