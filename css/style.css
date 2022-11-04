@@ -440,4 +440,24 @@
         padding: 50px 0;
     }
 
+    .aspect-ratio-1-1 {
+        aspect-ratio: 1 / 1;
+        }
+
 /*footer-end*/
+
+@media (max-width: 1350px) { 
+    #direction-column {
+     flex-direction: column;
+     }
+      
+    #media-column-1, #media-column-2, #media-column-3 {
+     flex-flow: row wrap;
+     width: 100%;
+     }
+
+    #media-column-2 {
+     height: 100%; 
+    }
+
+   }
