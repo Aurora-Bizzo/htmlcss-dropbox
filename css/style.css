@@ -27,6 +27,10 @@
         position: relative;
     }
 
+    li {
+        margin: 10px 0;
+    }
+
     /*width-height*/
 
     .width-100 {
@@ -103,10 +107,6 @@
 
         .margin-0-20 {
             margin: 0 20px;
-        }
-
-        .margin-10-0 {
-            margin: 10px 0;
         }
 
         .margin-75-0-15-0 {
@@ -367,10 +367,6 @@
             border: 6px solid rgb(0, 97, 255);
         }
 
-        .justify-content-center {
-            justify-content: center;
-        }
-
         /*card*/
 
             .card {
@@ -416,3 +412,32 @@
         }
 
     /*section-5-end*/
+
+/*main-end*/
+
+/*footer*/
+
+    .footer-container {
+        background-color: black;
+        color: white;
+    }
+
+    .white-hr {
+        height: 1px;
+        background-color: white;
+        border: none;
+    }
+
+    .width-10 {
+        width:10%;
+    }
+
+    #padding-100-0 {
+        padding: 100px 0;
+    }
+
+    #padding-50-0 {
+        padding: 50px 0;
+    }
+    
+/*footer-end*/
